@@ -1,0 +1,201 @@
+   0.875144000s  INFO prepare_target{force=false package_id=aether-examples v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\examples) target="full_async_api"}: cargo::core::compiler::fingerprint: fingerprint error for aether-examples v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\examples)/Check { test: false }/TargetInner { name: "full_async_api", doc: true, ..: with_path("C:\\Users\\hamza\\Desktop\\nwfm\\aether-web-framework\\framework\\examples\\full_async_api.rs", Edition2024) }
+   0.875282400s  INFO prepare_target{force=false package_id=aether-examples v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\examples) target="full_async_api"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\target\debug\.fingerprint\aether-examples-3bb916bc77c4b2bd\bin-full_async_api`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_libgit2_prerelease
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: git_midx_writer_dump
+  16: git_filter_source_repo
+  17: git_midx_writer_dump
+  18: BaseThreadInitThunk
+  19: RtlUserThreadStart
+   0.905765800s  INFO prepare_target{force=false package_id=aether-examples v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\examples) target="full_async_api"}: cargo::core::compiler::fingerprint: fingerprint error for aether-examples v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\examples)/Check { test: true }/TargetInner { name: "full_async_api", doc: true, ..: with_path("C:\\Users\\hamza\\Desktop\\nwfm\\aether-web-framework\\framework\\examples\\full_async_api.rs", Edition2024) }
+   0.905822600s  INFO prepare_target{force=false package_id=aether-examples v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\examples) target="full_async_api"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\target\debug\.fingerprint\aether-examples-a6f98cc9e29550d6\test-bin-full_async_api`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_libgit2_prerelease
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: git_midx_writer_dump
+  16: git_filter_source_repo
+  17: git_midx_writer_dump
+  18: BaseThreadInitThunk
+  19: RtlUserThreadStart
+   0.923363600s  INFO prepare_target{force=false package_id=aether-openapi v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\openapi) target="aether_openapi"}: cargo::core::compiler::fingerprint: fingerprint error for aether-openapi v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\openapi)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("aether_openapi", ["lib"], "C:\\Users\\hamza\\Desktop\\nwfm\\aether-web-framework\\framework\\openapi\\src\\lib.rs", Edition2024) }
+   0.923447900s  INFO prepare_target{force=false package_id=aether-openapi v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\openapi) target="aether_openapi"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\target\debug\.fingerprint\aether-openapi-06fed7cf1b052c42\lib-aether_openapi`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_libgit2_prerelease
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: git_midx_writer_dump
+  16: git_filter_source_repo
+  17: git_midx_writer_dump
+  18: BaseThreadInitThunk
+  19: RtlUserThreadStart
+   0.925164300s  INFO prepare_target{force=false package_id=aether-openapi v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\openapi) target="aether_openapi"}: cargo::core::compiler::fingerprint: fingerprint error for aether-openapi v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\openapi)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("aether_openapi", ["lib"], "C:\\Users\\hamza\\Desktop\\nwfm\\aether-web-framework\\framework\\openapi\\src\\lib.rs", Edition2024) }
+   0.925270200s  INFO prepare_target{force=false package_id=aether-openapi v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\openapi) target="aether_openapi"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\target\debug\.fingerprint\aether-openapi-e9b5fa84e782d593\test-lib-aether_openapi`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_libgit2_prerelease
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: git_midx_writer_dump
+  16: git_filter_source_repo
+  17: git_midx_writer_dump
+  18: BaseThreadInitThunk
+  19: RtlUserThreadStart
+   1.013224100s  INFO prepare_target{force=false package_id=aether-serialization v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\serialization) target="aether_serialization"}: cargo::core::compiler::fingerprint: fingerprint error for aether-serialization v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\serialization)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("aether_serialization", ["lib"], "C:\\Users\\hamza\\Desktop\\nwfm\\aether-web-framework\\framework\\serialization\\src\\lib.rs", Edition2024) }
+   1.013326400s  INFO prepare_target{force=false package_id=aether-serialization v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\serialization) target="aether_serialization"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\target\debug\.fingerprint\aether-serialization-b2ff062898782ff1\lib-aether_serialization`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_libgit2_prerelease
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: git_midx_writer_dump
+  16: git_filter_source_repo
+  17: git_midx_writer_dump
+  18: BaseThreadInitThunk
+  19: RtlUserThreadStart
+   1.015004000s  INFO prepare_target{force=false package_id=aether-serialization v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\serialization) target="aether_serialization"}: cargo::core::compiler::fingerprint: fingerprint error for aether-serialization v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\serialization)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("aether_serialization", ["lib"], "C:\\Users\\hamza\\Desktop\\nwfm\\aether-web-framework\\framework\\serialization\\src\\lib.rs", Edition2024) }
+   1.015067700s  INFO prepare_target{force=false package_id=aether-serialization v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\serialization) target="aether_serialization"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\target\debug\.fingerprint\aether-serialization-d3460b3e0e0e80c9\test-lib-aether_serialization`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_libgit2_prerelease
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: git_midx_writer_dump
+  16: git_filter_source_repo
+  17: git_midx_writer_dump
+  18: BaseThreadInitThunk
+  19: RtlUserThreadStart
+   1.018418900s  INFO prepare_target{force=false package_id=aether-tests v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\tests) target="aether_tests"}: cargo::core::compiler::fingerprint: fingerprint error for aether-tests v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\tests)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("aether_tests", ["lib"], "C:\\Users\\hamza\\Desktop\\nwfm\\aether-web-framework\\framework\\tests\\src\\lib.rs", Edition2024) }
+   1.018483700s  INFO prepare_target{force=false package_id=aether-tests v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\tests) target="aether_tests"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\target\debug\.fingerprint\aether-tests-bc12c28cff1e54d4\test-lib-aether_tests`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_libgit2_prerelease
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: git_midx_writer_dump
+  16: git_filter_source_repo
+  17: git_midx_writer_dump
+  18: BaseThreadInitThunk
+  19: RtlUserThreadStart
+    Checking aether-tests v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\tests)
+    Checking aether-examples v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\examples)
+    Checking aether-openapi v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\openapi)
+    Checking aether-serialization v0.1.0 (C:\Users\hamza\Desktop\nwfm\aether-web-framework\framework\serialization)
+error: could not compile `aether-serialization` (lib test) due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `aether-serialization` (lib) due to 2 previous errors
+error: could not compile `aether-examples` (bin "full_async_api") due to 1 previous error
+error: could not compile `aether-openapi` (lib) due to 2 previous errors
+error: could not compile `aether-examples` (bin "full_async_api" test) due to 1 previous error
+error: could not compile `aether-openapi` (lib test) due to 2 previous errors
+error: could not compile `aether-tests` (lib test) due to 1 previous error; 1 warning emitted
